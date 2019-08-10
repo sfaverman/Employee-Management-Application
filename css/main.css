@@ -1,0 +1,86 @@
+
+body {
+	margin: 0 20px;
+	box-sizing: border-box;
+}
+form {
+	max-width: 500px;
+}
+h1 {
+	color: darkcyan;
+	padding-top: 20px;
+}
+input, select, textarea {
+	width: 100%;
+	margin-bottom: 1em;
+	background-color: #f1f1f1;
+	padding: 3px;
+}
+a, input[type='submit'] {
+	color: #fff;
+	background-color: darkcyan;
+	width: 100px;
+	padding: 3px;
+}
+input[type='radio'] {
+	width: 50%;
+	padding: 0 5px;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul li {
+	display: inline-block;
+	margin-right: 5px;
+}
+a {
+	text-decoration: none;
+	padding: 2px 5px;
+	margin: 0 3px;
+	border-radius: 5px;
+}
+
+a:hover, input[type='submit']:hover {
+	background-color: orange;
+	color: #fff;
+}
+#top {
+	float: right;
+	margin-top: 5px;
+}
+#listEmps {
+	border: solid 1px #000;
+	max-height: 300px;
+	max-width: 475px;
+	padding: 10px;
+	overflow: auto;
+	clear: both;
+}
+.employeeName {
+	display: inline-block;
+	min-width: 300px;
+	margin-bottom: 10px;
+}
+.record {
+	max-width: 500px;
+	color: darkcyan;
+	border: solid 1px #000;
+	padding-left: 10px;
+	margin-top: 0;
+}
+h4 {
+	color: red;
+}
+
+fieldset {
+	margin-bottom: 20px;
+	padding-right: 10px;
+}
+@media screen and (max-width: 550px) {
+.employeeName {
+	min-width: 150px !important;
+}
+
